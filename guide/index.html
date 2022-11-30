@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Sharesnip Guide</title>
+	<meta name="description" content="Documentation for project" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="canonical" href="/guide" />
+	<meta property="og:image" content="https://static.rosano.ca/sharesnip/touch.png" />
+	<link rel="apple-touch-icon" href="https://static.rosano.ca/sharesnip/touch.png" />
+	<link rel="stylesheet" type="text/css" href="/_shared/__external/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="/_shared/__external/OLSKDecor/ui-style.css">
+	<link rel="stylesheet" type="text/css" href="/_shared/common/ui-style.css">
+	<link rel="stylesheet" type="text/css" href="/open-guide/ui-style.css">
+	<script defer src="https://olsk.rosano.ca/OLSKFigures/master/main.js"></script>
+	<script src="https://olsk.rosano.ca/OLSKBanner/master/main.js"></script>
+</head>
+
+<body>
+
+
+
+<div class="SNPGuide OLSKDecor OLSKDecorCapped">
+
+<div class="SNPGuideCrown OLSKCommonCard OLSKCommonCrownCard">
+	<section>
+		<span class="SNPGuideCrownName">Sharesnip Guide</span>
+	</section>
+</div>
+
+<div class="SNPGuideContent">
+<div class="OLSKDecorNotice">
+
+<p>This document is a work-in-progress. Feel free to reach out on <a href="https://mastodon.online/@rosano">Mastodon</a> or <a href="https://twitter.com/rosano">Twitter</a>.</p>
+</div>
+
+
+<p>Sharesnip helps you organize audio and video links. You can add them to your collection, with tags if needed, and then go through them based on your mood.</p>
+<p>You can also share a playlist from multiple platforms in one place.</p>
+<h1 id="item-catalog">Item catalog</h1>
+<p>On the left side of the interface, you can create, search, and select items. On the right side, you can edit the details.</p>
+<div class="OLSKDecorNotice">
+
+<p>Editing the same item on multiple devices at the same time can result in data loss. Editing different items should be safe.</p>
+</div>
+
+<p>Add an inbox item to your collection by pressing the <em>Clone</em> button.</p>
+<p><em>Name</em> is the name for the item. If this is empty, it will be overwritten when pressing <em>SNPCodeDetailMediaFetchButtonText</em>.</p>
+<h1 id="shortcuts">Shortcuts</h1>
+<div class="OLSKDecorNotice">
+
+<p><em>AccessKey</em> refers to a one or more shortcut keys followed by a single character. Usually it&#39;s <code>Alt</code> on Windows or <code>Control+Alt</code> on macOS, but it changes <a href="https://www.w3schools.com/tags/att_global_accesskey.asp#table2">based on your browser and operating system</a>.</p>
+<p><em>Launcher</em> refers to the app&#39;s command runner: press <code>Alt+Space</code>, type the command, then press <code>Enter</code> to run.</p>
+</div>
+
+<table>
+<thead>
+<tr>
+<th align="left">Item catalog</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Add new item</td>
+<td><code>AccessKey+n</code></td>
+</tr>
+<tr>
+<td align="left">Select previous or next item, if filter field is focused</td>
+<td><code>Up</code> or <code>Down</code></td>
+</tr>
+<tr>
+<td align="left">Clear filter text and selected item, focus filter field</td>
+<td><code>Escape</code></td>
+</tr>
+<tr>
+<td align="left">Close, if filter field is focused</td>
+<td><code>Escape</code></td>
+</tr>
+<tr>
+<td align="left"><code>Import JSON (beta)</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Export JSON (beta)</code></td>
+<td>Launcher</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="left">Global</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><code>Open access link</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Reload</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Force update</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left">Launcher</td>
+<td><code>Alt+Space</code></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="left">Global (when cloud is connected)</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><code>Copy private access link</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Enter confirmation code</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Clear authorization</code></td>
+<td>Launcher</td>
+</tr>
+<tr>
+<td align="left"><code>Flush data</code></td>
+<td>Launcher</td>
+</tr>
+</tbody></table>
+<h1 id="add-to-home-screen-on-mobile-and-tablet-devices">Add to Home screen on mobile and tablet devices</h1>
+<p>This web app can be &#39;installed&#39; and used as if it were a native mobile app (with an icon, working without internet access, running as a standalone app outside of the browser).</p>
+<ol>
+<li><a href="/code">Open the app</a> in your browser, then follow the steps based on your operating system:</li>
+</ol>
+<h2 id="ios--safari">iOS + Safari</h2>
+<ol start="2">
+<li>Tap the Share button <img height="22" valign="middle" alt="Share button icon" src="/_shared/__external/OLSKUIAssets/_OLSKSharediOSShare.svg" /></li>
+<li>Tap <em>Add to Home Screen</em> <img height="22" valign="middle" alt="Add to Home Screen icon" src="/_shared/__external/OLSKUIAssets/_OLSKSharediOSA2HS.svg"></li>
+</ol>
+<h2 id="android--chrome">Android + Chrome</h2>
+<ol start="2">
+<li>Tap the More button <img height="22" valign="middle" alt="More button icon" src="/_shared/__external/OLSKUIAssets/_OLSKSharedAndroidMore.svg" /></li>
+<li>Tap <em>Add to home screen</em></li>
+</ol>
+<h1 id="what-are-remotestorage-and-fission">What are remoteStorage and Fission?</h1>
+<p><a href="https://remotestorage.io">remoteStorage</a> and <a href="https://fission.codes">Fission</a> are open protocols for synchronizing data between multiple devices. Both take the level of control and flexibility of something like email and bring it to your personal data. You could think of it as a USB key for your documents that you can plug into websites to work on your stuff.</p>
+<p>You can get a remoteStorage account for free from <a href="https://5apps.com/storage/">5apps</a> or <a href="https://remotestorage.io/servers">host your own</a>.</p>
+<p>You can get a Fission account for free from <a href="https://auth.fission.codes">Fission Auth</a> or <a href="https://github.com/fission/fission">setup your own server</a>.</p>
+
+
+</div>
+
+<hr role="presentation" />
+
+<div class="SNPRootLink">
+
+<a class="OLSKRootLink OLSKCommonRootLink" href="/en/" title="Return to the homepage">
+	<img class="OLSKRootLinkImage" role="presentation" src="/_shared/SNPRootLink/ui-assets/identity.svg">
+</a>
+
+
+</div>
+
+
+</div>
+
+
+</body>
+</html>
