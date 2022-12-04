@@ -31,9 +31,9 @@
 
 			// DATA
 
-			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1670152886125',
+			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1670163481499',
 			_DataPersistenceCacheName: 'OLSKServiceWorkerPersistenceCache',
-			_DataOriginPage: '/code',
+			_DataOriginPage: '/collect',
 
 			// CONTROL
 
@@ -86,7 +86,7 @@
 					return;
 				}
 
-				// if (!(event.request.referrer.match(//code/) && event.request.mode === 'no-cors') && !event.request.url.match(//code/)) {
+				// if (!(event.request.referrer.match(//collect/) && event.request.mode === 'no-cors') && !event.request.url.match(//collect/)) {
 				// 	return console.log('ignoring referrer', event.request);
 				// };
 
