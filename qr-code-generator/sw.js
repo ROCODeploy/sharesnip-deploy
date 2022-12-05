@@ -31,7 +31,7 @@
 
 			// DATA
 
-			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1670165750407',
+			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1670249994442',
 			_DataPersistenceCacheName: 'OLSKServiceWorkerPersistenceCache',
 			_DataOriginPage: '/qr-code-generator',
 
