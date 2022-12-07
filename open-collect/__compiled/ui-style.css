@@ -12,7 +12,9 @@
 .OLSKServiceWorkerUpdateAlert.svelte-o3rgu5{--OLSKCommonForeground:#fd66ff;--OLSKServiceWorkerUpdateAlertBorderWidth:1.5px;padding:7px;border-top:var(--OLSKServiceWorkerUpdateAlertBorderWidth) solid var(--OLSKCommonForeground);background:#8000ff;color:var(--OLSKCommonForeground);font-family:'Helvetica Neue', 'Helvetica', sans-serif;display:flex;align-items:center}@media screen and (max-width: 760px){.OLSKServiceWorkerUpdateAlert.svelte-o3rgu5{padding:10px}}.OLSKServiceWorkerUpdateAlertLabel.svelte-o3rgu5{flex-grow:1}.OLSKServiceWorkerUpdateAlertReloadButton.svelte-o3rgu5{padding:5px;border-width:var(--OLSKServiceWorkerUpdateAlertBorderWidth) !important;font-weight:normal;font-size:inherit}
 .OLSKStandardView.svelte-hvaqwn{display:flex;flex-direction:column}.OLSKStandardViewHead.svelte-hvaqwn{flex-shrink:0}.OLSKStandardViewHead.svelte-hvaqwn *{color:var(--OLSKCommonForeground)}.OLSKStandardViewBody.svelte-hvaqwn{flex-grow:1;display:flex}.OLSKStandardViewBody.svelte-hvaqwn>*{width:100%}
 .OLSKWebViewFrame.svelte-1dgazwi{width:100%;height:100%;background:white}.OLSKWebViewTail.svelte-1dgazwi{flex-direction:column}.OLSKWebViewTail.svelte-1dgazwi{min-height:unset !important}.OLSKWebViewWindowButton.svelte-1dgazwi{display:block;padding:5px}
+.SNPFormBase.svelte-zhanoe{padding:0}
 @media(max-width: 450px){.SNPCollectDetailQR.svelte-jticcb{width:100%}.SNPCollectDetailQR.svelte-jticcb *{height:unset !important;width:100% !important}}
 .SNPCollectListItem.svelte-15utvlk{min-height:46px;padding:10px}.SNPCollectListItemTitle.svelte-15utvlk{font-weight:bold}
+.SNPMake.svelte-19r67zt.svelte-19r67zt{width:100%}.SNPMakeTypes.svelte-19r67zt button.svelte-19r67zt{font-size:90%;opacity:90%}.SNPMakeButtonActive.svelte-19r67zt.svelte-19r67zt{font-weight:bold}.SNPMakeTypes.svelte-19r67zt.svelte-19r67zt{margin-bottom:10px}
 
 /*# sourceMappingURL=ui-style.css.map */
