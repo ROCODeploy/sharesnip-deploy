@@ -50,6 +50,10 @@
 	--OLSKStickyHeaderTop: 0;
 }
 
+html, body {
+	height: 100vh;
+}
+
 body {
 	background: var(--OLSKDecorBackgroundDeep);
 }
@@ -82,12 +86,16 @@ body {
 
 }
 
+@media screen and (max-width: 760px) {
+
 .OLSKDecorFixedHeader {
 	position: fixed;
 	top: 0;
 	display: block;
 	width: 100%;
 	z-index: 2;
+}
+
 }
 
 .OLSKDecorFixedSecondary {
@@ -111,17 +119,25 @@ body {
 
 @media screen and (min-width: 760px) {
 
-.OLSKViewport {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
+	.OLSKViewport {
+		width: 90%;
+		max-width: 920px;
+		margin: auto;
+		height: 90%;
+		position: relative;
+		top: 4%;
 
-	/* OLSKViewportFlexbox:Parent */
-	display: flex;
-	flex-direction: column;
-}
+		padding: 10px;
+		padding-bottom: 2px;
+		border-radius: 5px;
+		border: 1px solid var(--OLSKDecorBackgroundDeepEdge);
+
+		background: var(--OLSKCommonBackground);
+
+		/* OLSKViewportFlexbox:Parent */
+		display: flex;
+		flex-direction: column;
+	}
 
 }
 
@@ -499,6 +515,12 @@ a.OLSKDecorPress {
 	background: none !important;
 }
 
+.OLSKDecorPressCallInverted {
+	border:  none !important;
+	background: black !important;
+	color: white !important;
+}
+
 .OLSKDecorPressDestroy {
 	border-color: #800002 !important;
 	background: #ffefef !important;
@@ -837,6 +859,7 @@ a.OLSKDecorPress {
 
 .OLSKDecorGlossary {
 	padding: 30px;
+	border-radius: 8px;
 
 	margin: 50px 0;
 
@@ -969,27 +992,6 @@ a.OLSKDecorPress {
 .OLSKDecorModule a, .OLSKDecorModule .OLSKDecorPressCall {
 	border-color: var(--OLSKDecorModuleForeground) !important;
 	color: var(--OLSKDecorModuleForeground) !important;
-}
-
-/* OLSKEdit */
-
-.OLSKEdit {
-	display: block;
-
-	--OLSKDecorModuleForeground: #333 !important;
-
-	padding: 10px 20px;
-	border-radius: 5px;
-	border: 2px dashed var(--OLSKCommonForeground);
-
-	margin: 80px 0;
-
-	text-align: center;
-	opacity: 0.5;
-}
-
-.OLSKEdit:hover {
-	opacity: unset;
 }
 
 /* ROCOGazette */
