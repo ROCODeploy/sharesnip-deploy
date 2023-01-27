@@ -31,7 +31,7 @@
 
 			// DATA
 
-			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1674449400707',
+			_DataVersionCacheName: 'OLSKServiceWorkerVersionCache-1674829328155',
 			_DataPersistenceCacheName: 'OLSKServiceWorkerPersistenceCache',
 			_DataOriginPage: '/generate',
 
