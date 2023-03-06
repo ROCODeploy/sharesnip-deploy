@@ -1,0 +1,58 @@
+:root {
+	--OLSKCommonBorderColor: rgb(255, 128, 0);
+	--OLSKDecorForegroundLight: rgb(255, 128, 0);
+	--OLSKDecorFormBlendBackground: #FFF9E5;
+	--OLSKDecorFormBlendBorderColor: var(--OLSKDecorForegroundLight);
+	--OLSKDecorBackgroundDeep: #f3edd4;
+	--OLSKDecorBackgroundDeepEdge: var(--OLSKDecorForegroundLight);
+
+	--OLSKCollectionItemsLocusColorDefault: #9e5705;
+	--OLSKCollectionItemsLocusColorActive: rgb(255, 93, 35);
+	--OLSKCollectionItemsLocusColorActiveInverse: white;
+}
+
+input, textarea {
+	border-color: var(--OLSKDecorForegroundLight) !important;
+}
+
+.OLSKDecorBigForm button {
+	border-color: unset !important;
+}
+
+hr {
+	opacity: 0.2 !important;
+}
+
+svg * {
+	stroke: var(--OLSKCommonForeground);
+}
+
+#_OLSKSharedApropos * {
+	fill: var(--OLSKCommonForeground);
+	stroke: none;
+}
+
+body {
+	font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 9pt;
+}
+
+.OLSKBanner {
+	display: none;
+}
+
+@media (min-width: 450px) {
+	.OLSKModalViewOverlay {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.OLSKModalViewContainer {
+		min-width: 40%;
+		max-height: 80%;
+		overflow: clip;
+		border-radius: 3px;
+	}
+}
+</style>
