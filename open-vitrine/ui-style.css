@@ -1,0 +1,20 @@
+.SNPVitrineVideo {
+	--OLSKCommonVideoWide: 1500;
+	--OLSKCommonVideoHigh: 800;
+}
+@media screen and (min-width: 760px) {
+
+.SNPVitrineVideo {
+	--OLSKCommonVideoWide: 1200;
+	width: 400px;
+}
+
+}
+
+.OLSKDecorGlossary {
+	margin: unset;
+}
+
+.SNPVitrineCollectLink, .SNPVitrineVideo, .OLSKFeatureListItem:nth-child(3), .OLSKFeatureListItem:nth-child(4), .OLSKFeatureListItem:nth-child(5), .OLSKFeatureListItem:nth-child(6), .OLSKFeatureListItem:nth-child(7), .OLSKFeatureListItem:nth-child(8), .SNPVitrineGuideButton {
+	display: none;
+}
