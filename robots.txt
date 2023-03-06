@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /$
-Allow: /en/
-Allow: /fr/
-Allow: /es/
-Allow: /pt/
-Allow: /guide
-Disallow: /
