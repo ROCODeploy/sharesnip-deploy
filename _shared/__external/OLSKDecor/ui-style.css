@@ -1093,3 +1093,11 @@ a.OLSKDecorPress {
     visibility: hidden;
   }
 }
+
+@media screen and (max-width: 420px) {
+
+	.OLSKAppToolbarLanguageButton {
+		display: none;
+	}
+
+}
