@@ -39,11 +39,3 @@
 .SNPScanFileInput {
 	max-width: 45%;
 }
-
-.SNPGenerateShareLink {
-	border-width: 1px !important;
-	font-weight: normal;
-	padding: 10px 4px;
-	position: relative;
-	left: -16px;
-}
